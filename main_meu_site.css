@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1280px;
+    width: 100%;
+    
+}
+
+.articles {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+header .container,section .container,header .container5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+
+section .container{
+    align-items: flex-start;
+}
+
+
+section h2{
+    margin-bottom: 16px;
+}
+section p{
+    margin-bottom: 8px;
+}
+.store-front{
+    margin-right: 32px;
+}
+
+.articles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.articles article img{
+    height: 800px;
+    
+}
+.articles1 .article img{
+    /*height: 180px;*/
+    width: 100%;
+    
+}
+
+
+.articles article h3 {
+    
+    margin-bottom: 8px;
+    font-size: 24px;
+}
+.articles article a {
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    display: inline-block;
+    text-decoration: underline;
+    font-weight: bold;
+    
+
+}
+.articles article a:hover{
+    text-decoration:underline;
+}
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+.articles article,header {
+    width: 100%;
+}
+
+
+.articles article p,
+.articles article a {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+
+section h2 {
+    font-size: 38px;
+
+}
+
+
+
+
+.container5 li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration:none;
+    color: #000000;
+    -webkit-text-stroke: 3px #ff0000;
+    
+}
+
+.PLANTA{
+    background-color: rgba(30, 180, 30, 0.9);
+}
+
+.FOGO{
+    background-color: rgba(255, 69, 0, 0.9);
+}
+
+.AGUA{
+    background-color: rgba(0, 119, 190, 0.9);
+}
+
+.INSETO{
+    background-color: rgba(160, 190, 20, 0.9);
+}
+
+.NORMAL{
+    background-color: rgba(200, 200, 170, 0.9);
+}
+
+.VENENO{
+    background-color: rgba(138, 43, 226, 0.9);
+}
+
+.ELETRICO{
+    background-color: rgba(255, 223, 0, 0.9);
+}
+
+.TERRESTRE{
+    background-color: rgba(210, 180, 140, 0.9);
+}
+
+.FADA{
+    background-color: rgba(255, 192, 203, 0.9);
+}
+
+.LUTADOR{
+    background-color: rgba(205, 92, 92, 0.9);
+}
+
+.PSIQUICO{
+    background-color: rgba(255, 105, 180, 0.9);
+}
+
+.PEDRA{
+    background-color: rgba(169, 169, 169, 0.9);
+}
+
+.FANTASMA{
+    background-color: rgba(128, 0, 128, 0.9);
+}
+
+.DRAGAO{
+    background-color: rgba(106, 90, 205, 0.9);
+}
+
+
+
+
+
+body header h1{
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-decoration:none;
+    color: #000000;
+    -webkit-text-stroke: 3px #ff0000;
+    margin-left: 400px;
+    margin-bottom: 10px;
+    margin-top: -1px;
+}
+
+header .container5 nav li{
+    display: block;
+    align-items: flex-start;
+    margin-left: 0;
+    
+}
+
+
+
+section .container p{
+    color: #000000;
+    -webkit-text-stroke: 1px #ff0000;
+    font-size: 32px;
+    font-style:oblique;
+    font-weight:  bold;
+}
+
+body .container5{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    margin-left: 200px;
+    margin-top: 10px;
+    list-style: none ;
+    
+    
+    
+    
+}
+
+#pokedex p{
+    color: #000000;
+    font-size: 30px;
+    padding-bottom: 50px;
+    
+}
+
+
+.social-links img {
+    height: 30px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display:block ;
+    width: 450px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 35px;
+}
+
+#pokedex .articles article h3 {
+    font-size: 50px;
+    color: #000000;
+    
+}
+
+.fundo {
+    box-sizing: border-box;
+    margin-left: 360px;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    font-size: 80px;
+    
+}
+
+.fundo h1{
+    font-size: 90px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-left: -200px;
+    margin-top: 10px;
+}
+
+body{
+    background-color:aqua;
+}
+.bto img {
+    height: 150px;
+    position:fixed;
+    right: 10px;
+    bottom: 10px;
+}
+
+body .container5 ul {
+    list-style-type: none;
+}
+
+.container h2 a{
+    color: #fbff03;
+    -webkit-text-stroke: 2px #fa1b1b;
+    
+}
+body{
+    font-family: 'Oswald', sans-serif;
+}
